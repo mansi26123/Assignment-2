@@ -117,7 +117,7 @@ class Product extends React.Component {
     render() {
         return (
             <div className="container jumbotron">
-                <h1>Inventory</h1>
+                <h1>My Company Inventory</h1>
                 <h3>Showing all availble products</h3><br/>
                 <hr/><br/>
                 <ProductTable products={this.state.products}/> <br/>
